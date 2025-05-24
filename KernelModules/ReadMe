@@ -1,0 +1,13 @@
+TO Download the headers
+
+sudo apt-get update
+sudo apt-get install linux-headers-`uname -r`
+
+You can find info on it with the command:
+modinfo <module>.ko
+
+loading your new module 
+sudo insmod <module>.ko
+
+remove your loaded module
+sudo rmmod <module>
